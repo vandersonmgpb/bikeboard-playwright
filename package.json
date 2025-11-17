@@ -1,0 +1,23 @@
+{
+  "name": "bike-board-web",
+  "version": "1.0.0",
+  "description": "Plataforma de Classificados para Compra e Venda de Bicicletas",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s src"
+  },
+  "keywords": [
+    "playwright",
+    "reactjs",
+    "bike"
+  ],
+  "author": "Fernando Papito",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2"
+  }
+}
