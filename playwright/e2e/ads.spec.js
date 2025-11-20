@@ -66,7 +66,7 @@ test.describe("Cadastro de Anúncio", () => {
     page
   }) => {
     await setupWhatsAppInvalidLengthMock(page)
-    await actions.fillAdForm({ ...myBike, whatsapp: "11999999999" })
+    await actions.fillAdForm({ ...myBike, whatsapp: "119999999" })
     await actions.submitAdForm()
 
     await expect(
