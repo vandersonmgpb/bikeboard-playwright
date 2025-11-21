@@ -5,7 +5,7 @@ on:
       browser:
         description: 'Escolha o navegador de sua preferência para os testes (chromium, firefox, webkit)'
         required: true
-        default: 'Chromium'
+        default: 'chromium'
       base_url:
         description: 'Escolha o ambiente de testes de sua preferência (local, homolog, production)'
         required: true
