@@ -4,7 +4,9 @@
   "description": "Plataforma de Classificados para Compra e Venda de Bicicletas",
   "main": "index.js",
   "scripts": {
-    "start": "serve -s src"
+    "start": "serve -s src",
+    "test": "BASE_URL=http://localhost:3000 npx playwright test --project=chromium",
+    "test:win": "set BASE_URL=http://localhost:3000 && npx playwright test --project=chromium"
   },
   "keywords": [
     "playwright",
