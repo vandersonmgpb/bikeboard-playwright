@@ -1,9 +1,9 @@
 name: E2E Multi-Browser Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ multi-browser ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ multi-browser ]
 jobs:
   # Testes no Chromium
   tests-chromium:
